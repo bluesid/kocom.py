@@ -13,4 +13,4 @@ cd $SHARE_DIR
 python3 $SHARE_DIR/kocom.py
 
 # for dev
-while true; do echo "still live"; sleep 100; done
+while true; do date "+%Y-%m-%d %H:%M:%S : still live"; sleep 100; done
